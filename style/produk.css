@@ -50,6 +50,11 @@
     font-weight: 200;
 }
 
+/* Pagination */
+.page-item {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
 /* Responsive Layout */
 @media (min-width: 992px) {
 
