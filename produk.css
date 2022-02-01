@@ -1,0 +1,177 @@
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.warna-bg {
+    background: linear-gradient(to right, rgba(34, 29, 29, 1), rgba(140, 135, 135, 1));
+    height: 650px;
+    border-radius: 0 0 45px 45px;
+}
+
+.contentjumb h1 {
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+.contentjumb p {
+    font-weight: 200;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.contentjumb a {
+    margin-bottom: 100px;
+}
+
+/* Produk */
+.container .card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.container h5 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.container .card-body .btn {
+    color: #362222;
+}
+
+.container p {
+    font-weight: 200;
+}
+
+/* Pagination */
+.page-item {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Jumbotron2 */
+.contjumbotron {
+    text-align: center;
+}
+
+.contjumbotron h6 {
+    font-weight: 350;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.contjumbotron p {
+    font-weight: 200;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+
+/* Footer */
+.container .descf {
+    font-weight: 200;
+}
+
+.container .descf h5 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.container .descf .textsaran {
+    margin-top: 10px;
+    font-weight: 200;
+    resize: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 40px;
+}
+
+.container .langganan {
+    margin-top: 20px;
+}
+
+.container .langganan h5 {
+    text-align: center;
+    font-weight: 350;
+}
+
+.container .langganan .buton {
+    text-align: center;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #ACACAC;
+    width: 100%;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* Responsive Layout */
+@media (min-width: 992px) {
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
+
+    .nav-link::after {
+        content: '';
+        display: block;
+        border-bottom: 5px dotted white;
+        margin: auto;
+        width: 0;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        transition: width 0.3s;
+    }
+
+    .nav-link:hover::after {
+        width: 50%;
+    }
+
+    .warna-bg {
+        margin-top: -75px;
+        height: 500px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .warna-bg {
+        margin-top: -75px;
+        height: 500px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .contentjumb p {
+        text-align: left;
+    }
+
+    .contjumbotron {
+        text-align: left;
+    }
+
+    .container .descf h5 {
+        margin-top: 10px;
+    }
+}
