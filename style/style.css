@@ -105,6 +105,24 @@
     margin: 25px 0;
 }
 
+/* Servis */
+.judulservis {
+    margin: 80px 0 50px;
+}
+
+.judulservis h3 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.judulservis h3 span {
+    font-weight: 500;
+}
+
+.contentservis p {
+    margin: 50px 0 50px;
+}
+
 
 
 
