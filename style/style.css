@@ -123,6 +123,16 @@
     margin: 50px 0 50px;
 }
 
+/* About */
+.judulabout {
+    margin: 50px 0 10px;
+}
+
+.judulabout h3 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
 
 
 
