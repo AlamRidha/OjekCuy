@@ -1,0 +1,41 @@
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+
+
+/* Responsive Layout */
+@media (min-width: 992px) {
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
+
+    .nav-link::after {
+        content: '';
+        display: block;
+        border-bottom: 5px dotted white;
+        margin: auto;
+        width: 0;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        transition: width 0.3s;
+    }
+
+    .nav-link:hover::after {
+        width: 50%;
+    }
+}
