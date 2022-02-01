@@ -31,7 +31,24 @@
     margin-bottom: 100px;
 }
 
+/* Produk */
+.container .card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
 
+.container h5 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.container .card-body .btn {
+    color: #362222;
+}
+
+.container p {
+    font-weight: 200;
+}
 
 /* Responsive Layout */
 @media (min-width: 992px) {
