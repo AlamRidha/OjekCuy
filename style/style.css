@@ -278,6 +278,20 @@
 }
 
 
+/* Copyright */
+.copyright {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #ACACAC;
+    width: 100%;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
 
 
 /* Responsive Layout */
