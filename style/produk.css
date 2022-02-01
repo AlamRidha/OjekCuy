@@ -9,6 +9,29 @@
     font-size: 32px;
 }
 
+/* Jumbotron */
+.warna-bg {
+    background: linear-gradient(to right, rgba(34, 29, 29, 1), rgba(140, 135, 135, 1));
+    height: 650px;
+    border-radius: 0 0 45px 45px;
+}
+
+.contentjumb h1 {
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+.contentjumb p {
+    font-weight: 200;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.contentjumb a {
+    margin-bottom: 100px;
+}
+
+
 
 /* Responsive Layout */
 @media (min-width: 992px) {
@@ -37,5 +60,11 @@
 
     .nav-link:hover::after {
         width: 50%;
+    }
+
+    .warna-bg {
+        margin-top: -75px;
+        height: 500px;
+        border-radius: 0 0 30px 30px;
     }
 }
