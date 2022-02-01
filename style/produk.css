@@ -106,4 +106,22 @@
         height: 500px;
         border-radius: 0 0 30px 30px;
     }
+
+    .warna-bg {
+        margin-top: -75px;
+        height: 500px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .contentjumb p {
+        text-align: left;
+    }
+
+    .contjumbotron {
+        text-align: left;
+    }
+
+    .container .descf h5 {
+        margin-top: 10px;
+    }
 }
