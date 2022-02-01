@@ -55,6 +55,23 @@
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
+/* Jumbotron2 */
+.contjumbotron {
+    text-align: center;
+}
+
+.contjumbotron h6 {
+    font-weight: 350;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.contjumbotron p {
+    font-weight: 200;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
 /* Responsive Layout */
 @media (min-width: 992px) {
 
