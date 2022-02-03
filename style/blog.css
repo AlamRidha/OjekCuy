@@ -14,6 +14,43 @@
     background-color: #b7b7bb;
 }
 
+/* Content Berita */
+.berita1 {
+    margin-bottom: 5px;
+}
+
+.berita2 {
+    margin-bottom: 5px;
+}
+
+.container .card {
+    border-radius: 20px;
+}
+
+.container .card h5 {
+    font-weight: 560;
+}
+
+.container .card p {
+    font-weight: 250;
+}
+
+.container .card .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container .card .card-footer {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+.container .selengkapnya {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* Responsive Layout  */
 @media (min-width: 992px) {
 
@@ -41,5 +78,25 @@
 
     .nav-link:hover::after {
         width: 50%;
+    }
+
+    .berita1 {
+        margin-bottom: 35px;
+    }
+
+    .berita2 {
+        margin-bottom: 35px;
+    }
+
+    .container .langganan {
+        margin-top: 0px;
+    }
+
+    .container .card .card-footer {
+        text-align: left;
+    }
+
+    .container .descf h5 {
+        margin-top: 10px;
     }
 }
