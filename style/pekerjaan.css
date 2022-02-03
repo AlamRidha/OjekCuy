@@ -93,6 +93,28 @@
     font-weight: 300;
 }
 
+/* Info kerja */
+.container .cari h3 {
+    margin-right: 15px;
+    text-align: center;
+}
+
+.container .textk {
+    margin: auto;
+}
+
+.container .form-control {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.container .textk h3 {
+    font-weight: 350;
+    margin-top: 6px;
+}
+
+.container .carik {
+    margin: auto;
+}
 
 
 /* Responsive Layout  */
@@ -132,5 +154,36 @@
 
     .jumbotron .display-4 {
         font-size: 62px;
+    }
+
+    .container .form2 {
+        height: 45px;
+        width: 500px;
+    }
+
+    .container .text {
+        margin-bottom: 20px;
+    }
+
+    /* Utility */
+    .tombol {
+        border-radius: 40px;
+        box-shadow: 0 0 6px rgba(75, 124, 63, 0.5);
+    }
+
+    .hub {
+        z-index: 0;
+    }
+
+    .carousel p {
+        font-size: 16px;
+    }
+
+    .carousel h5 {
+        font-size: 20px;
+    }
+
+    .container .descf h5 {
+        margin-top: 10px;
     }
 }
