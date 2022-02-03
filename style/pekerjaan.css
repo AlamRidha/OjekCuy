@@ -148,6 +148,12 @@
     color: red;
 }
 
+/* Pagination */
+.pagination {
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+
 /* Responsive Layout  */
 @media (min-width: 992px) {
 
