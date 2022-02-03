@@ -22,6 +22,56 @@
     float: right;
 }
 
+/* Info Kontak */
+.kontak h3 {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 450;
+}
+
+.box {
+    color: #495057;
+}
+
+.box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box .col-4 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.box .icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.box .col-4 h4 {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 250;
+}
+
+
+.kontak iframe {
+    width: 100%;
+    height: 450px;
+}
+
 /* Responsive Layout  */
 @media (min-width: 992px) {
 
