@@ -154,6 +154,24 @@
     margin-bottom: 40px;
 }
 
+/* Carousel Slide */
+.carousel .carousel-item img {
+    opacity: 80%;
+}
+
+.carousel h5 {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel p {
+    font-size: 12px;
+    font-weight: 600;
+    color: black
+}
+
+
 /* Responsive Layout  */
 @media (min-width: 992px) {
 
