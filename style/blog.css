@@ -1,0 +1,10 @@
+/* Navbar */
+.navbar {
+    position: relative;
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
