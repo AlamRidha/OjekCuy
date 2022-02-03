@@ -8,6 +8,19 @@
     font-size: 32px;
 }
 
+/* Pencarian */
+.pencarian {
+    padding-right: 20px;
+}
+
+.cari .form-control {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.carik .btn {
+    float: right;
+}
 
 /* Responsive Layout  */
 @media (min-width: 992px) {
@@ -36,5 +49,18 @@
 
     .nav-link:hover::after {
         width: 50%;
+    }
+
+    .cari .form-control {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cari .carik {
+        margin: auto;
+    }
+
+    .box .col-4 h4 {
+        font-size: 20px;
     }
 }
