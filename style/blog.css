@@ -51,6 +51,40 @@
     margin-bottom: 30px;
 }
 
+/* Footer */
+.container .descf {
+    font-weight: 200;
+}
+
+.container .descf h5 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.container .descf .textsaran {
+    margin-top: 10px;
+    font-weight: 200;
+    resize: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 40px;
+}
+
+.container .langganan {
+    margin-top: 20px;
+}
+
+.container .langganan h5 {
+    text-align: center;
+    font-weight: 350;
+}
+
+.container .langganan .buton {
+    text-align: center;
+}
+
 /* Responsive Layout  */
 @media (min-width: 992px) {
 
