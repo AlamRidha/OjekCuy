@@ -85,6 +85,15 @@
     text-align: center;
 }
 
+/* Copyright */
+.copyright {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #ACACAC;
+    width: 100%;
+}
+
 /* Responsive Layout  */
 @media (min-width: 992px) {
 
