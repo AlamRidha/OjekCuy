@@ -1,0 +1,40 @@
+/* Contact */
+.hub {
+    --w: 600px;
+    --c: (100vw - var(--w));
+
+    position: fixed;
+    cursor: pointer;
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: clamp(10px, var(--c)*-1000, 20px) 20px;
+    font-size: clamp(0px, var(--c)*1000, 30px);
+    border-radius:
+        clamp(10px, var(--c)*-1000, 100px) clamp(10px, var(--c)*-1000, 100px) clamp(0px, var(--c)*-1000, 100px) clamp(0px, var(--c)*-1000, 100px);
+    font-family: sans-serif;
+    transform-origin: bottom right;
+    bottom: clamp(20px, var(--c)*1000, 50%);
+    right: clamp(0px, var(--c)*-1000, 20px);
+    transform: rotate(-90deg) translateX(clamp(50%, var(--c)*-1000, 100%));
+    z-index: 2;
+}
+
+.sidecontact a {
+    color: white;
+}
+
+.sidecontact a:hover {
+    color: rgb(204, 148, 148);
+    text-decoration: none;
+}
+
+.hub:before {
+    content: '\f075';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-size: clamp(0px, var(--c)*-1000, 30px);
+    font-weight: 900;
+    transform: rotate(90deg);
+}
